@@ -661,12 +661,12 @@ if __name__ == '__main__':
         )
         parser.add_argument(
             '--info',
-            default='print_duration,model_height,filament_weight,filament_length',
+            default='print_duration,model_height,filament_weight,filament_cost',
             help='Comma separated list of info icons that will be added on images',
         )
         parser.add_argument(
             '--currency',
-            default='$',
+            default='€',
             help='Currency',
         )
         parser.add_argument(
